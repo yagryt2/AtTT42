@@ -230,7 +230,7 @@ main {
 
 @media screen and (max-width: 768px) {
 	header {
-		width: 110vh;
+		width: 56vh;
 
 		display: flex;
 		flex-direction: column;
@@ -245,23 +245,32 @@ main {
 	}
 
 	.header-label {
-		width: 110vh;
-		font-size: 10vh;
+		/*width: 40vh;*/
+		font-size: 5.6vh;
 	}
 
+	.get-audio {
+		width: 56vh;
+	}
 
 	.input-and-output-background {
-		width: 110vh;
-		height: 125vh;
-
+		width: 56vh;
+		height: 70vh;
 	}
 
 	.input-and-output {
-		height: 120vh;
+		height: 69vh;
 
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
+
+		margin-top: 1vh;
+		padding: 0px;
+	}
+
+	.audio {
+		width: 44vh;
 	}
 
 	.input {
@@ -273,8 +282,20 @@ main {
 	}
 
 	.t-b-div {
-		width: 110vh;
-		font-size: 50%;
+		width: 55vh;
+		font-size: 22%;
+	}
+
+	.trancribate-button {
+		margin-top: 2vh;
+	}
+
+	.loading {
+		width: 50vh;
+		padding-top: 2vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
+		font-size: 1.2vh;
 	}
 }
 
